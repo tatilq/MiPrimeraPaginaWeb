@@ -1,5 +1,150 @@
 
-.imagen{
-    width: 30%;
-    text-align: center;
+/* Ingresa tu css aqui */
+
+body{
+	text-align: center;
+	font-size: 18px;
+
 }
+img{
+	max-width: 100%;
+}
+h1{
+	font-size: 18px;
+	text-align: left;
+}
+h3{
+	text-align: left;
+}
+h2
+{
+	text-align: center;
+	font-size: 35px;
+}
+.container{
+	width: 1000px;
+	margin: 0 auto;
+	border: 3px solid black;
+	padding: 20px;
+	background-color: #89D8BC;
+
+}
+.home-description{
+	margin: 0 70px;
+	font-size: 25px;
+}
+.list-menu{
+	list-style: none;
+	margin: 10px 0;
+	padding: 10px 0;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+}
+.list-menu li{
+	display: inline-block;
+	border-right: 1px solid #000;
+}
+.list-menu li:last-child{
+	border-right: none;
+
+}
+.list-menu a{
+	display: block;
+	padding: 8px 15px;
+	text-decoration: none;
+	color: #111;
+	font-size: 19px;
+}
+.list-menu a:hover{
+	
+	font-size: 35px;
+	color: green;
+	
+}
+
+.list-coders{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	margin: 20 0 0 0;
+	text-align: center;
+
+}
+.list-coders li {
+	display: inline-block;
+	width: 29%;
+	margin: 8px;
+
+	-webkit-filter: brightness(80%);
+	filter: brightness(80%);
+}
+
+.list-coders a{
+	display: block;
+	position: relative;
+	color: white;
+
+}
+.list-coders p{
+	margin: 0;
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	color: white;
+}
+	
+.list-coders img:hover
+{
+	opacity: 0.5;
+
+}
+
+}
+.separador-chico{
+	border-color: #ebebeb;
+	width: 60px;
+	height: 2px;
+	background-color: black;
+
+}
+.separador-grande{
+	border-width: 3px;
+	border-color: #000;
+	width: 50px;
+	margin: 0;
+}
+.container-coder{
+	width: 500px;
+	margin: 0;
+}
+
+}
+.item{
+	text-align: left;
+	font-size: 15px;
+	color: white;
+	margin: 25px;
+	background-color: #6E6E6E;
+	padding: 10px;
+	border:1px;
+}
+
+
+.list-imagenes{
+	
+	text-align: center;
+	margin-left: -30px;
+	
+}
+
+.list-imagenes li{
+	display: inline-block;
+	width: 29%;
+	margin: 8px;
+	clear: both;
+	overflow: hidden
+	
+}
+
+
+
